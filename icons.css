@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'ch1-js';
+  src:  url('fonts/ch1-js.eot?nnqkk6');
+  src:  url('fonts/ch1-js.eot?nnqkk6#iefix') format('embedded-opentype'),
+    url('fonts/ch1-js.ttf?nnqkk6') format('truetype'),
+    url('fonts/ch1-js.woff?nnqkk6') format('woff'),
+    url('fonts/ch1-js.svg?nnqkk6#ch1-js') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ch1-js' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-star:before {
+  content: "\e901";
+  color: #fc7614;
+  font-size: 13px;
+}
+
